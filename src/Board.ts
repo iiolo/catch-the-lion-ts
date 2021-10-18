@@ -11,7 +11,7 @@ export class Cell {
   readonly _el: HTMLElement = document.createElement('DIV');
 
   constructor(
-    public readonly poisiton: Poisiton,
+    public readonly poisiton: Position,
     private piece: Piece
   ) {
     this._el.classList.add('cell');
